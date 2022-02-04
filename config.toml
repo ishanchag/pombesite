@@ -1,4 +1,13 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site1'
+theme = "sam"
+
+[[params.mainMenu]]
+    link = "/this-is"
+    text = "This is"
+
+[[params.mainMenu]]
+    link = "/pombe"
+    text = "Pombe"
 
